@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <h1>My Form</h1>
+    
+        <div class="user-block">
+            <input type="text" name="username" placeholder="UserName">
+            <input type="text" name="email" placeholder="Email">
+        </div>
+        <br>
+        <br>
+    
+        <h3>Gender</h3>
+        <div class="gender-block">
+            <input type="radio" value="Male" name="gender" checked> Male
+            <input type="radio" value="Female" name="gender"> Female
+        </div>
+        <br>
+        <br>
+        
+    
+        <h3>Skills</h3>
+        <div class="skills-block"> 
+            <div class="inputs">
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="JS"> 
+                    <label for="">JavaScript</label> 
+                </div>
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="Ruby"> 
+                    <label for="">Ruby</label> 
+                </div>
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="php"> 
+                    <label for="">Php</label> 
+                </div>
+            </div>
+        
+            <div class="inputs">
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="React"> 
+                    <label for="">React</label> 
+                </div>
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="Angular"> 
+                    <label for="">Angular</label> 
+                </div>
+                <div class="block-label">
+                    <input type="checkbox" name="skills" value="C#"> 
+                    <label for="">C#</label> 
+                </div> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <button  type="submit" class="send-btn">Send</button>
+        <button><a href="./druga.html">Button review</a> </button>
+    </form>
+    
+    <div class="erorr-box">
+
+    </div>
+
+
+</div>
+    
+    <script src="./dataBase.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
